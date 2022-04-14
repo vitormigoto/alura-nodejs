@@ -264,7 +264,7 @@ node cli.js ./arquivos/texto1.md
 
 Ele deverá exibir algo como a imagem abaixo:
 
-![Untitled](Comec%CC%A7ando%20dd019/Untitled.png)
+![Untitled](readme_images/Untitled.png)
 
 ## 8. Scripts
 
@@ -371,7 +371,7 @@ export default validaURLs;
 
 Com esta validação agora quando executarmos `npm run cli` validar veremos a seguinte resposta:
 
-![Untitled](Comec%CC%A7ando%20dd019/Untitled%201.png)
+![Untitled](readme_images/Untitled%201.png)
 
 ## 10. Trabalhando com Testes
 
@@ -387,7 +387,7 @@ npm install --save-dev jest
 
 Na pasta raiz vamos criar um diretório chamado `test` e dentro dele iremos criar um arquivo com o nome `index.test.js`
 
-![Untitled](Comec%CC%A7ando%20dd019/Untitled%202.png)
+![Untitled](readme_images/Untitled%202.png)
 
 Neste arquivo iremos criar nosso teste iniciando de acordo com o código abaixo:
 
@@ -402,7 +402,7 @@ test('deve ser uma funcao', () => {
 
 Para realizarmos o teste temos que configurar no arquivo package.json nosso comando de script de test. Você verá que no arquivo package já existe uma linha do “test” no nosso caso iremos apagar o texto que está digitado e iremos trocar pelo comando jest e a pasta onde estarão nossos testes.
 
-![Antes de alterar nosso arquivo package. json está assim.](Comec%CC%A7ando%20dd019/Untitled%203.png)
+![Antes de alterar nosso arquivo package. json está assim.](readme_images/Untitled%203.png)
 
 Antes de alterar nosso arquivo package. json está assim.
 
@@ -423,7 +423,7 @@ npm run test
 
 Você irá obter o seguinte resultado mostrando que nosso código passou no teste.
 
-![Untitled](Comec%CC%A7ando%20dd019/Untitled%204.png)
+![Untitled](readme_images/Untitled%204.png)
 
 ### 10.3 Criando uma sequencia de testes
 
@@ -465,7 +465,7 @@ Vemos no arquivo acima que usamos uma sequencia de 5 testes em cima da função 
 
 Para realizar os testes do script acima vamos precisar criar 2 arquivos dentro de uma pasta chamada arquivos em nossa pasta test que é onde deixaremos um arquivo com o link perfeito e um arquivo sem links para utilizarmos como base do nosso teste. 
 
-![Untitled](Comec%CC%A7ando%20dd019/Untitled%205.png)
+![Untitled](readme_images/Untitled%205.png)
 
 ```jsx
 A interface File provê informações sobre arquivos e permite ao JavaScript  a acessar seu conteúdo.

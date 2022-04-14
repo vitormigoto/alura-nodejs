@@ -2,23 +2,32 @@
   "name": "alura-nodejs",
   "version": "1.0.0",
   "description": "Aula de NodeJS",
-  "main": "index.js",
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "preferGlobal": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitormigoto/alura-nodejs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vitor Migoto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vitormigoto/alura-nodejs/issues"
   },
   "homepage": "https://github.com/vitormigoto/alura-nodejs#readme",
   "dependencies": {
-    "chalk": "^5.0.1"
-  }  
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }

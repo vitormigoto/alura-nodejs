@@ -22,28 +22,27 @@
 
 Para iniciar, vamos iniciar o projeto digitando o seguinte comando:
 
-```sql
+```bash
 npm init -y
 ```
-
 ## a. Instalando a lib Chalk (Opcional)
 
 Digite o seguinte comando:
 
-```sql
+```bash
 npm install chalk
 ```
 
 Agora adicione no arquivo package.json  abaixo da linha `“main”:”index.js”` o seguinte código:
 
-```sql
+```bash
 "main": "index.js",
 "type": "module",
 ```
 
 No arquivo index.js você pode utilizar agora a biblioteca Chalk importando da seguinte maneira:
 
-```sql
+```bash
 import chalk from 'chalk';
 
 console.log(chalk.blue("teste"))
@@ -59,7 +58,7 @@ Crie um novo arquivo na raiz do projeto com o nome `.gitignore` (este arquivo de
 
 Para iniciarmos vamos utilizar um código que irá realizar a leitura de  um arquivo de texto. Para isso vamos precisar criar um diretório chamado arquivos/ e dentro dele vamos criar um arquivo com o nome [texto1.md](http://texto1.md) e vamos colocar o seguinte conteúdo:
 
-```sql
+```bash
 A interface File provê informações sobre arquivos e permite ao JavaScript  a acessar seu conteúdo.
 
 São geralmente recuperados a partir de um objeto [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList) que é retornado como resultado da seleção, pelo usuário, de arquivos através do elemento [<input>](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Input), a partir do objeto [DataTransfer](https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer) utilizado em operações de arrastar e soltar, ou a partir da API `mozGetAsFile()` em um [HTMLCanvasElement](https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLCanvasElement). Em Gecko, códigos com privilégiios podem criar objetos File representando qualquer arquivo local sem a intereção do usuário (veja [Implementation notes](https://developer.mozilla.org/pt-BR/docs/Web/API/File#implementation_notes) para mais informações.)
@@ -67,14 +66,14 @@ São geralmente recuperados a partir de um objeto [FileList](https://developer.m
 
 Para realizar a leitura de um arquivo vamos utilizar uma lib do node chamada FS (FileStystem) para isso iremos importar em nosso arquivo index.js da seguinte maneira:
 
-```sql
+```bash
 // Lib File System para ler arquivos
 import fs from 'fs';
 ```
 
 Para lermos o arquivo vamos utilizar uma função da lib FS que é o readFile, ela lê um arquivo, em um determinado formato e passa para uma função de callback. Sua sintaxe é a seguinte:
 
-```sql
+```bash
 fs.readFile(caminhoArquivo, codificacao, funcao de callnack)
 ```
 

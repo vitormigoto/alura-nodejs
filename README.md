@@ -1,8 +1,6 @@
 # Node.js : Minha Primeira Biblioteca em Node.js
 
-> **Autor: Vitor Migoto**
- - **Data: 14/04/2022** - 
-*Documento baseado em treinamento de aula online do site Alura.*
+> **Autor: Vitor Migoto** / **Data: 14/04/2022** / *Documento baseado em treinamento de aula online do site Alura.*
 ------------
 ## O que veremos neste arquivo:
 

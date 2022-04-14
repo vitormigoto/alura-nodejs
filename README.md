@@ -1,6 +1,11 @@
-# Começando a trabalhar em Node.js
+# Node.js : Minha Primeira Biblioteca em Node.js
 
-# O que veremos neste arquivo:
+> **Autor: Vitor migoto**
+> **Data: 14/04/2022**
+*Documento baseado em treinamento de aula online do site Alura.*
+
+------------
+## O que veremos neste arquivo:
 
 1. Criando o pacote package.json
     1. Instalando a lib Chalk (Opcional)
